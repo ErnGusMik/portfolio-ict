@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy myPhone 3</title>
+    <link rel="stylesheet" href="./library.css">
+    <link rel="stylesheet" href="./buy.css">
+    <script src="./buy.js" defer></script>
+</head>
+
+<body>
+    <div class="top-cont">
+        <section class="left">
+            <h1 class="title-text">Buy myPhone 3</h1>
+            <a href="./index.html" class="link">Learn more</a>
+            <div class="left-images">
+                <img src="./img/hero-main-front.png" alt="myPhone Image" class="img-left-left">
+                <img src="./img/color-section-black.jpg" alt="myPhone Image Black" class="img-left-right">
+            </div>
+        </section>
+        <section class="right">
+            <div class="form-right">
+                <h2 class="subtitle-text" id="model">Model.</h2>
+                <h2 class="subtitle-text gray">Which do you crave most?</h2>
+                <div class="form-content">
+                    <div class="form-button" id="model-normal">
+                        <input type="radio" name="myPhone 3" id="myPhone-3" hidden onchange="onSelect('phone', 'myPhone 3', 899)">
+                        <label for="myPhone-3" class="button-label">
+                            <span class="button-left">
+                                <span class="body-text-lg bold white">myPhone 3</span>
+                                <span class="body-text-sm">6.8-inch display</span>
+                            </span>
+                            <span class="button-right">
+                                <span class="body-text-sm">
+                                    From $899 or $37.47/mo. for 24 months before trade-in
+                                </span>
+                            </span>
+                        </label>
+                    </div>
+                    <div class="form-button" id="model-pro">
+                        <input type="radio" name="myPhone 3" id="myPhone-3-pro" hidden>
+                        <label for="myPhone-3-pro" class="button-label">
+                            <span class="button-left">
+                                <span class="body-text-lg bold white">myPhone 3 Pro </span>
+                                <span class="body-text-sm">Max 5G Ultra</span>
+                            </span>
+                            <span class="button-right">
+                                <span class="body-text-sm">
+                                    From $1099 or $45.81/mo. for 24 months before trade-in
+                                </span>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+                <h2 class="subtitle-text" id="color">Color.</h2>
+                <h2 class="subtitle-text gray">What color enlightens you?</h2>
+                <div class="form-content">
+                    <div class="form-button" id="color-gold">
+                        <input type="radio" name="color" id="gold" hidden>
+                        <label for="gold" class="button-label">
+                            <span class="button-left">
+                                <span class="body-text-lg bold gold">Gold</span>
+                                <span class="body-text-sm">The color of luxury</span>
+                            </span>
+                            <span class="button-right">
+                                <span class="body-text-sm">
+                                    From $1099 or $45.81/mo. for 24 months before trade-in
+                                </span>
+                            </span>
+                        </label>
+                    </div>
+                    <div class="form-button" id="color-black">
+                        <input type="radio" name="color" id="black" hidden>
+                        <label for="black" class="button-label">
+                            <span class="button-left">
+                                <span class="body-text-lg bold white">Black</span>
+                                <span class="body-text-sm">The color of practicality</span>
+                            </span>
+                            <span class="button-right">
+                                <span class="body-text-sm">
+                                    From $899 or $37.47/mo. for 24 months before trade-in
+                                </span>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+                <h2 class="subtitle-text" id="storage">Storage.</h2>
+                <h2 class="subtitle-text gray">How many photos will you take?</h2>
+                <div class="form-content">
+                    <div class="form-button" id="storage-xsm">
+                        <input type="radio" name="color" id="128" hidden>
+                        <label for="128" class="button-label disabled">
+                            <span class="button-left">
+                                <span class="body-text-lg bold white">128GB</span>
+                                <span class="body-text-sm">Not many</span>
+                            </span>
+                            <span class="button-right">
+                                <span class="body-text-sm">
+                                    From $1099 or $45.81/mo. for 24 months before trade-in
+                                </span>
+                            </span>
+                        </label>
+                    </div>
+                    <div class="form-button" id="storage-sm">
+                        <input type="radio" name="color" id="256" hidden>
+                        <label for="256" class="button-label">
+                            <span class="button-left">
+                                <span class="body-text-lg bold white">256GB</span>
+                                <span class="body-text-sm">Little bit</span>
+                            </span>
+                            <span class="button-right">
+                                <span class="body-text-sm">
+                                    From $899 or $37.47/mo. for 24 months before trade-in
+                                </span>
+                            </span>
+                        </label>
+                    </div>
+                    <div class="form-button" id="storage-md">
+                        <input type="radio" name="color" id="512" hidden>
+                        <label for="512" class="button-label">
+                            <span class="button-left">
+                                <span class="body-text-lg bold white">512GB</span>
+                                <span class="body-text-sm">Quite a bit</span>
+                            </span>
+                            <span class="button-right">
+                                <span class="body-text-sm">
+                                    From $899 or $37.47/mo. for 24 months before trade-in
+                                </span>
+                            </span>
+                        </label>
+                    </div>
+                    <div class="form-button" id="storage-lg">
+                        <input type="radio" name="color" id="1024" hidden>
+                        <label for="1024" class="button-label">
+                            <span class="button-left">
+                                <span class="body-text-lg bold white">1TB</span>
+                                <span class="body-text-sm">Loads</span>
+                            </span>
+                            <span class="button-right">
+                                <span class="body-text-sm">
+                                    From $899 or $37.47/mo. for 24 months before trade-in
+                                </span>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <div class="break"></div> -->
+    </div>
+</body>
+
+</html>

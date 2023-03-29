@@ -1,3 +1,6 @@
+// UNFINISHED
+// PLEASE IGNORE
+
 let price = 0;
 
 const addToPrice = (addPrice) => {
